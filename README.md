@@ -16,6 +16,8 @@ Results:
 Time Required to train: 4.20775032043457
 Time Required to test: 0.0059566497802734375
 Exact number of accurate predictions in test set: 2836
+             
+            
              precision    recall  f1-score   support
 
           1       0.94      1.00      0.97       496
