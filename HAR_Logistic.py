@@ -63,7 +63,6 @@ for item in y_test:
 del item,y_temp
 
 #run the logistic regression
-
 from sklearn.linear_model import LogisticRegression
 logistic = LogisticRegression(C=2.0)
 
@@ -93,7 +92,7 @@ for i in range(0,6):
     sum += confusion_matrix[i,i]
 del i
 
-print("Exact number of accurate predictions in test set: {}".format(sum))
+print("Exact number of accurate predictions in test set: {}/{}".format(sum,len(X_test)))
 
 from sklearn.metrics import classification_report
 print(classification_report(y_test, y_pred))
