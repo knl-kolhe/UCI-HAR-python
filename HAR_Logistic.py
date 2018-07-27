@@ -66,9 +66,23 @@ del item,y_temp
 
 from sklearn.linear_model import LogisticRegression
 logistic = LogisticRegression(C=2.0)
+
+import time
+start = time.time()
+
 logistic.fit(X_train,y_train)
 
+end = time.time()
+
+print("Time Required to train: {}".format(end-start))
+
+start = time.time()
+
 y_pred = logistic.predict(X_test)
+
+end = time.time()
+
+print("Time Required to test: {}".format(end-start))
 
 from sklearn.metrics import confusion_matrix
 confusion_matrix = confusion_matrix(y_test, y_pred)
@@ -79,7 +93,7 @@ for i in range(0,6):
     sum += confusion_matrix[i,i]
 del i
 
-print("Exact number of accurate predictions in test set {}".format(sum))
+print("Exact number of accurate predictions in test set: {}".format(sum))
 
 from sklearn.metrics import classification_report
 print(classification_report(y_test, y_pred))
