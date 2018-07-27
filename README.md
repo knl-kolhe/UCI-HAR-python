@@ -26,6 +26,5 @@ Exact number of accurate predictions in test set: 2836
           4       0.98      0.88      0.93       491
           5       0.90      0.98      0.94       532
           6       1.00      1.00      1.00       537
-
-avg / total       0.96      0.96      0.96      2947
+    avg / total   0.96      0.96      0.96      2947
 
