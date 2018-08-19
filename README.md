@@ -1,4 +1,4 @@
-# UCI-HAR-python
+# UCI Human Activity Recognition python
 Using logistic regression model to classify Human Activity based on sensor values
 
 ## Requirements
@@ -13,13 +13,17 @@ time
 I have made some changes to the original dataset found here https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
 Download the dataset and unpack it in the same directory as the HAR_Logistic.py file.
-Delete the '_MACOSX' folder as it is not required.
 
 For the X_train and X_test replace '  '(2 spaces) with ' '(1 space) at all places using a text editor
 
 Let there be a new line after the last entry in X_train.txt and X_test.txt
 
-delete the new line in y_train and y_test datasets at the end.
+delete the new line in y_train and y_test datasets at the end. (Will modify code so that these changes are not required)
+
+## Program
+The code is classifying all the sensor values into 6 classes.
+
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
 ## Results:
