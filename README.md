@@ -1,4 +1,10 @@
 # UCI Human Activity Recognition python
+The Autobiography of this DataSet:
+I could be gathered from your phone, your smartwatch, or even in a chip embedded in your body. But I reckon it's going to be a few years before that happens. Using me, a smart device can automatically classify what you are doing and help keep track of your actions. Using a model which I have helped train, can be used to classofy your actions locally on the device. then this classification can be stored on a cloud☁️ for long term tracking and that can help you regulate your actions. This can be in the form of changing behaviours to include more activity in your day to day life or even getting more rest at proper intervals so that you can be fresh for a new challenge every day. 
+wThank you for listening to my story and my purpose, now Kunal will explain how he used me to build a machine learning model which classifies human actions.
+
+Kunal: Thank you data, now lets continue...
+
 Using logistic regression model to classify Human Activity based on sensor values
 
 ## Requirements
@@ -11,7 +17,6 @@ time
 
 ## Dataset
 I have made some changes to the original dataset found here https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
-
 Download the dataset and unpack it in the same directory as the HAR_Logistic.py file.
 
 For the X_train and X_test replace '  '(2 spaces) with ' '(1 space) at all places using a text editor
